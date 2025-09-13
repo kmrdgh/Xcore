@@ -14,27 +14,34 @@ VPS для панели
 ОС Ubuntu 22 x64 или Ubuntu 24 x64
 Как пользоваться скриптом
 Скрипт создавался и тестировался под ОС Ubuntu 22 x64 и Ubuntu 24 x64. На других ОС может работать некорректно. Чтобы скачать и запустить скрипт, используйте эту команду:
-
+```
 wget -qO- https://raw.githubusercontent.com/ServerTechnologies/simple-xray-core/refs/heads/main/xray-install | bash
+```
 Команды для управления пользователями
 Вывести список всех клиентов:
-
+```
 userlist
+```
 Вывести ссылку и QR-код для подключения основного пользователя:
-
+```
 mainuser
+```
 Создать нового пользователя:
-
+```
 newuser
+```
 Удалить пользователя:
-
+```
 rmuser
+```
 Создать ссылку для подключения:
-
+```
 sharelink
+```
 В домашней папке пользователя будет создан файл help — в нём содержатся подсказки с описанием команд. Посмотреть его можно с помощью команды (нужно находиться в домашней папке пользователя):
-
+```
 cat help
+```
 Полезные ссылки
 GitHub проекта X-ray Core
 Официальная документация на русском
@@ -66,11 +73,13 @@ Nekoray
 v2rayA
 Furious
 Если вдруг нужно удалить, то воспользуйтесь этими командами:
+```
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ remove
 rm /usr/local/etc/xray/config.json
 rm /usr/local/etc/xray/.keys
 rm /usr/local/bin/userlist
 rm /usr/local/bin/mainuser
 rm /usr/local/bin/newuser
+```
 rm /usr/local/bin/rmuser
 rm /usr/local/bin/sharelink
