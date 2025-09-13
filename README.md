@@ -1,0 +1,2 @@
+# Xcore
+Xray core script
