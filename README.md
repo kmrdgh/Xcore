@@ -8,10 +8,10 @@ VPS для панели
 В сервисе доступны более 36 локаций. Если вам не нужна какая-то конкретная страна, выбирайте ту, что ближе к вам.
 
 Системные требования
--1 CPU
--1 GB RAM
--10 GB диска
--ОС Ubuntu 22 x64 или Ubuntu 24 x64
+- 1 CPU
+- 1 GB RAM
+- 10 GB диска
+- ОС Ubuntu 22 x64 или Ubuntu 24 x64
 Как пользоваться скриптом
 Скрипт создавался и тестировался под ОС Ubuntu 22 x64 и Ubuntu 24 x64. На других ОС может работать некорректно. Чтобы скачать и запустить скрипт, используйте эту команду:
 ```
@@ -49,30 +49,30 @@ cat help
 Клиенты для подключения
 Windows
 
--[v2rayN](https://github.com/2dust/v2rayN)
--[Furious](https://github.com/LorenEteval/Furious)
--[Invisible Man - Xray](https://github.com/InvisibleManVPN/InvisibleMan-XRayClient)
+- [v2rayN](https://github.com/2dust/v2rayN)
+- [Furious](https://github.com/LorenEteval/Furious)
+- [Invisible Man - Xray](https://github.com/InvisibleManVPN/InvisibleMan-XRayClient)
 Android
 
--[v2rayNG](https://github.com/2dust/v2rayNG)
--[X-flutter](https://github.com/XTLS/X-flutter)
--[SaeedDev94/Xray](https://github.com/SaeedDev94/Xray)
+- [v2rayNG](https://github.com/2dust/v2rayNG)
+- [X-flutter](https://github.com/XTLS/X-flutter)
+- [SaeedDev94/Xray](https://github.com/SaeedDev94/Xray)
 iOS & macOS arm64
 
--[Streisand](https://apps.apple.com/app/streisand/id6450534064)
--[Happ](https://apps.apple.com/app/happ-proxy-utility/id6504287215)
--[OneXray](https://github.com/OneXray/OneXray)
+- [Streisand](https://apps.apple.com/app/streisand/id6450534064)
+- [Happ](https://apps.apple.com/app/happ-proxy-utility/id6504287215)
+- [OneXray](https://github.com/OneXray/OneXray)
 macOS arm64 & x64
 
--[V2rayU](https://github.com/yanue/V2rayU)
--[V2RayXS](https://github.com/tzmax/V2RayXS)
--[Furious](https://github.com/LorenEteval/Furious)
--[OneXray](https://github.com/OneXray/OneXray)
+- [V2rayU](https://github.com/yanue/V2rayU)
+- [V2RayXS](https://github.com/tzmax/V2RayXS)
+- [Furious](https://github.com/LorenEteval/Furious)
+- [OneXray](https://github.com/OneXray/OneXray)
 Linux
 
--[Nekoray](https://github.com/MatsuriDayo/nekoray)
--[v2rayA](https://github.com/v2rayA/v2rayA)
--[Furious](https://github.com/LorenEteval/Furious)
+- [Nekoray](https://github.com/MatsuriDayo/nekoray)
+- [v2rayA](https://github.com/v2rayA/v2rayA)
+- [Furious](https://github.com/LorenEteval/Furious)
 Если вдруг нужно удалить, то воспользуйтесь этими командами:
 ```
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ remove
