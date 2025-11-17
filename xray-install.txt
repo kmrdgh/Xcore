@@ -64,7 +64,7 @@ cat << EOF > /usr/local/etc/xray/config.json
                 "security": "reality",
                 "realitySettings": {
                     "show": false,
-                    "dest": "github.com:443",
+                    "dest": "ya.ru:443",
                     "xver": 0,
                     "serverNames": [
                         "github.com",
@@ -288,3 +288,4 @@ cat << 'EOF' > $HOME/help
     systemctl restart xray
 
 EOF
+
