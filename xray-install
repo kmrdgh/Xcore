@@ -67,8 +67,8 @@ cat << EOF > /usr/local/etc/xray/config.json
                     "dest": "ya.ru:443",
                     "xver": 0,
                     "serverNames": [
-                        "github.com",
-                        "www.github.com"
+                        "ya.ru",
+                        "www.ya.ru"
                     ],
                     "privateKey": "$privatkey",
                     "minClientVer": "",
